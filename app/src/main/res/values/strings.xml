@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Netzsperre</string>
+    <string name="subtitle">Internet für einzelne Apps abschalten</string>
+    <string name="search_hint">App suchen</string>
+    <string name="tab_all">Alle Apps</string>
+    <string name="tab_blocked">Gesperrt</string>
+    <string name="tab_blocked_n">Gesperrt · %d</string>
+    <string name="menu">Menü</string>
+
+    <string name="st_on">Sperre aktiv</string>
+    <string name="st_on_empty">Sperre an</string>
+    <string name="st_on_empty_detail">Noch keine App ausgewählt</string>
+    <string name="st_off">Sperre aus</string>
+    <string name="st_off_detail">Tippe auf eine App, um sie zu sperren</string>
+    <string name="st_starting">Wird gestartet …</string>
+    <string name="st_error">Sperre unterbrochen</string>
+    <string name="btn_on">Einschalten</string>
+    <string name="btn_pause">Pausieren</string>
+    <string name="btn_off">Ausschalten</string>
+    <string name="btn_retry">Erneut</string>
+
+    <plurals name="st_on_detail">
+        <item quantity="one">%d App hat kein Internet</item>
+        <item quantity="other">%d Apps haben kein Internet</item>
+    </plurals>
+    <plurals name="st_off_waiting">
+        <item quantity="one">%d App ist markiert, aber nicht gesperrt</item>
+        <item quantity="other">%d Apps sind markiert, aber nicht gesperrt</item>
+    </plurals>
+    <plurals name="tile_blocked">
+        <item quantity="one">%d App gesperrt</item>
+        <item quantity="other">%d Apps gesperrt</item>
+    </plurals>
+    <string name="tile_off">Aus</string>
+
+    <string name="row_blocked">Kein Internet</string>
+    <string name="row_allowed">Internet erlaubt</string>
+    <string name="row_paused">Markiert · Sperre aus</string>
+    <string name="row_system">Systemdienst</string>
+
+    <string name="empty_none">Keine App gefunden</string>
+    <string name="empty_blocked">Noch keine App gesperrt.\nTippe in „Alle Apps“ auf eine App.</string>
+
+    <string name="m_system">Systemdienste anzeigen</string>
+    <string name="m_unblock_all">Alle entsperren</string>
+    <string name="m_always_on">Dauerhaft aktiv halten</string>
+    <string name="m_about">So funktioniert’s</string>
+
+    <string name="unblock_all_q">Alle Apps entsperren?</string>
+    <string name="unblock_all_msg">Alle Apps bekommen wieder Internet. Die Auswahl wird gelöscht.</string>
+    <string name="yes_unblock">Entsperren</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">Verstanden</string>
+    <string name="vpn_settings">VPN-Einstellungen</string>
+
+    <string name="about_title">So funktioniert’s</string>
+    <string name="about_text">Netzsperre richtet auf deinem Handy ein lokales VPN ein, das nur die gesperrten Apps umfasst. Alles, was diese Apps senden wollen, landet dort und wird verworfen – sie sind komplett offline, über WLAN und mobile Daten.\n\nAlle anderen Apps laufen ganz normal. Es werden keine Daten aus dem Handy geschickt, es gibt keinen Server.\n\n• Android erlaubt nur ein VPN gleichzeitig. Startest du ein anderes VPN, wird die Sperre pausiert.\n• Damit die Sperre auch nach einem Neustart sofort greift: Menü → Dauerhaft aktiv halten → Netzsperre → „Durchgehend aktives VPN“ einschalten.\n• Lange auf eine App tippen öffnet ihre App-Infos (z. B. zum Beenden erzwingen).\n• In den Schnelleinstellungen gibt es eine Kachel zum Ein- und Ausschalten.</string>
+
+    <string name="always_on_title">Dauerhaft aktiv halten</string>
+    <string name="always_on_text">In den VPN-Einstellungen beim Zahnrad neben „Netzsperre“ den Schalter „Durchgehend aktives VPN“ einschalten.\n\n„Verbindungen ohne VPN blockieren“ bitte aus lassen – sonst haben alle Apps kein Internet, solange die Sperre pausiert ist.</string>
+
+    <string name="denied">Ohne VPN-Erlaubnis kann Netzsperre nichts sperren.</string>
+    <string name="err_permission">VPN-Erlaubnis fehlt – tippe auf „Erneut“</string>
+    <string name="err_start">Konnte nicht gestartet werden</string>
+</resources>

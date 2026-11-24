@@ -1,0 +1,16 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+.idea/
+.claude/
+
+# Signierschlüssel und fertige Apps nie veröffentlichen
+keystore/
+*.keystore
+*.jks
+key.properties
+keystore.properties
+*.apk
+*.aab
